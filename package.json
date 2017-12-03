@@ -1,0 +1,38 @@
+{
+  "name": "guitar_hero",
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+  "node": "6.10.1",
+  "npm": "3.10.10"
+  },
+  "main": "webpack.config.js",
+  "directories": {
+  "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "postinstall": "webpack"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyschwrtz/guitar-hero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyschwrtz/guitar-hero/issues"
+  },
+  "homepage": "https://github.com/jyschwrtz/guitar-hero#readme"
+
+}
