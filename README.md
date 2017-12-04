@@ -14,7 +14,9 @@ The project will also include:
  - [ ] Select difficulties for a song (if time)
 
 ## Wireframes
-The app will be a single screen, housing a canvas (possibly three.js if time) where the notes are played, a dropdown for difficulty,
+The app will be a single screen, housing a canvas (possibly three.js if time) where the notes are played, a dropdown for difficulty, links to GitHub and LinkedIn, and other display items shown on the following wireframe:
+
+![wireframe](https://github.com/jyschwrtz/guitar-hero-design/raw/master/wireframes/main_page.png)
 
 ## Architecture & Technologies
 This app will be implemented using the following technologies:
