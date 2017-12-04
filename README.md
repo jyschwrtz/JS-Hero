@@ -7,10 +7,11 @@ Users will be able to:
  - [ ] Play a song pressing keys on the keyboard at the correct time
  - [ ] Hear and see feedback if they are playing correctly
  - [ ] Start, pause, and restart a song
- - [ ] Select difficulties for a song
+
 The project will also include:
  - [ ] Links to connect with me (GitHub, LinkedIn)
  - [ ] A modal with instructions on how to play
+ - [ ] Select difficulties for a song (if time)
 
 ## Wireframes
 The app will be a single screen, housing a canvas (possibly three.js if time) where the notes are played, a dropdown for difficulty,
@@ -24,9 +25,9 @@ This app will be implemented using the following technologies:
 
 ## Implementation Timeline
 #### Over the Weekend:
- - [ ] Tutorials on three.js
- - [ ] Setup `webpack`, index.html, and entry.js file
- - [ ] Setup scene & camera angle on three.js and figured can show notes moving along a line
+ - [X] Tutorials on three.js
+ - [X] Setup `webpack`, index.html, and entry.js file
+ - [X] Setup scene & camera angle on three.js and figured can show notes moving along a line
 
 #### Day 1:
  - [ ] Work on game logic
