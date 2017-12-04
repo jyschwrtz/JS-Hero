@@ -10,12 +10,42 @@ Users will be able to:
  - [ ] Select difficulties for a song
 The project will also include:
  - [ ] Links to connect with me (GitHub, LinkedIn)
+ - [ ] A modal with instructions on how to play
 
 ## Wireframes
+The app will be a single screen, housing a canvas (possibly three.js if time) where the notes are played, a dropdown for difficulty,
 
 ## Architecture & Technologies
+This app will be implemented using the following technologies:
+  * Vanilla JavaScript - structure and game logic
+  * three.js - DOM manipulation and rendering
+  * AWS S3 for hosting a song
+  * Webpack for bundling scripts
 
 ## Implementation Timeline
+#### Over the Weekend:
+ - [ ] Tutorials on three.js
+ - [ ] Setup `webpack`, index.html, and entry.js file
+ - [ ] Setup scene & camera angle on three.js and figured can show notes moving along a line
+
+#### Day 1:
+ - [ ] Work on game logic
+   - [ ] Match keystroke timing to game's timing
+   - [ ] Create series of notes coming in for user to hit
+
+#### Day 2:
+ - [ ] Finish game logic
+ - [ ] Make note series create & render in order with three.js
+ - [ ] Add music to game
+
+#### Day 3:
+ - [ ] Build out the score, song progress, and winning/failing bar
+ - [ ] Finish up remaining game logic and three.js issues
+
+#### Day 4:
+ - [ ] Finish styling of surrounding components
 
 ## Bonus Features
- - [ ] Use three.js to style the moving notes and game
+ - [ ] Multiple difficulties
+ - [ ] Eight inputs instead of four
+ - [ ] Allow user to upload song and create note pattern for playback
