@@ -1,15 +1,21 @@
 #game-canvas {
   position: relative;
-  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .game-details {
   position: absolute;
   bottom: 0;
   left: 0;
+  right: 0;
   color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .score, .streak {
