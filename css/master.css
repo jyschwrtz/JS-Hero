@@ -1,0 +1,14 @@
+#game-canvas {
+  position: relative;
+}
+
+#game-score {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+
+#song {
+  display: none;
+}

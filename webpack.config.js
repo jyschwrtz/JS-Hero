@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   // context: __dirname,
-  entry: "./lib/entry.js",
+  entry: "./lib/guitar_hero.js",
   // target: 'node',
   output: {
     // path: path.resolve(__dirname, 'lib'),
