@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 #game-canvas {
   position: relative;
   height: 100%;
@@ -6,6 +9,13 @@
   justify-content: center;
   align-items: center;
 }
+
+/*.game-display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}*/
 
 .game-details {
   position: absolute;
@@ -78,6 +88,26 @@
 }
 
 .mute, .play-pause {
-  width: 50px;
+  width: 80px;
   height: 20px;
+}
+
+.professional-links {
+  z-index: 10;
+  margin-top: 20px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, .75);
+  border-radius: 5px;
+}
+
+.professional-links img {
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateY(2.5px);
 }
