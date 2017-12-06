@@ -48,6 +48,34 @@
   background: rgba(0, 0, 0, .75);
 }
 
+.red {
+  /*color: red;*/
+}
+
+.rock-input {
+  background: transparent;
+}
+
+.rock-input::-webkit-slider-runnable-track {
+  background: white;
+}
+
+.red .rock-input::-webkit-slider-runnable-track {
+  background: red;
+}
+
 #song {
   display: none;
+}
+
+.game-lower-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.mute {
+  width: 50px;
+  height: 20px;
 }
