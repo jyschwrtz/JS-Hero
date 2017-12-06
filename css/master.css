@@ -111,3 +111,7 @@ body {
   padding-right: 10px;
   transform: translateY(2.5px);
 }
+
+.hidden {
+  display: none;
+}
