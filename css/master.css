@@ -9,25 +9,44 @@
 
 .game-details {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   color: white;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
 
-.game-details-right {
+.game-details-right, .game-details-left {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  width: 180px;
+  height: 120px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, .75);
 }
 
 .score, .streak, .multiplier {
   font-size: 28px;
 }
 
+.game-progress  {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  background: rgba(0, 0, 0, .75);
+}
 
 #song {
   display: none;
