@@ -117,13 +117,99 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.instructions {
+  position: absolute;
+  background: rgba(0, 0, 0, .90);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.close-instructions {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.close-instructions h1:hover {
+  cursor: pointer;
+}
+
+.close-instructions h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.close-instructions h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.instructions-text {
+  color: white;
+  font-size: 18px;
+  width: 350px;
+  text-align: justify;
+}
+
+.instructions-text li {
+  margin-bottom: 5px;
+}
+
+.instructions .letters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+  width: 325px;
+  color: black;
+}
+
+.instructions .letters li {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
   background: blue;
 }
 
-
-
-
-
+.orange {
+  background: orange;
+}
 
 .hidden {
   display: none;
