@@ -1,6 +1,8 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
+
 #game-canvas {
   position: relative;
   height: 100%;
@@ -9,13 +11,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/*.game-display {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}*/
 
 .game-details {
   position: absolute;
@@ -58,10 +53,6 @@ body {
   background: rgba(0, 0, 0, .75);
 }
 
-.red {
-  /*color: red;*/
-}
-
 .rock-input {
   background: transparent;
 }
@@ -74,22 +65,40 @@ body {
   background: red;
 }
 
+.green .rock-input::-webkit-slider-runnable-track {
+  background: green;
+}
+
+.yellow .rock-input::-webkit-slider-runnable-track {
+  background: yellow;
+}
+
 #song {
   display: none;
 }
 
-.game-lower-left {
+.game-control-panel {
   position: absolute;
   bottom: 0;
   left: 0;
   display: flex;
   flex-direction: column;
   padding: 20px;
+  font-weight: 700;
 }
 
-.mute, .play-pause {
-  width: 80px;
-  height: 20px;
+.game-control-panel button {
+  width: 120px;
+  height: 25px;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  background: #ffffff;
+}
+
+.game-control-panel button:hover {
+  background: #cfcfcf;
+  cursor: pointer;
 }
 
 .professional-links {
@@ -119,6 +128,7 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 3px 3px black;
+  letter-spacing: 1.5px;
 }
 
 .instructions {
@@ -191,26 +201,27 @@ body {
   align-items: center;
 }
 
-.green {
+.instructions .green {
   background: green;
 }
 
-.red {
+.instructions .red {
   background: red;
 }
 
-.yellow {
+.instructions .yellow {
   background: yellow;
 }
 
-.blue {
+.instructions .blue {
   background: blue;
 }
 
-.orange {
+.instructions .orange {
   background: orange;
 }
 
+/* LEAVE AT BOTTOM OF CSS FILE */
 .hidden {
   display: none;
 }

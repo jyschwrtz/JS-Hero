@@ -1,9 +1,7 @@
 ** TODO:
 
-* change Start Button to "Press A to start"
 * Add control panel in lower left corner
-* toggle look around button
-* Add instructions
+* toggle instructions
 * Add lighting effects
 
 

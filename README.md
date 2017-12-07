@@ -1,4 +1,4 @@
-# (Guitar) Hero (Guitar Hero Clone)
+# JS Hero (JavaScript Hero)
 ## Background and Overview
 Guitar Hero is a musical timing game where the user must hit the correct note at the correct time to receive points and move onto the next level.
 
