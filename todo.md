@@ -1,7 +1,5 @@
 ** TODO:
 
-* Add control panel in lower left corner
-* toggle instructions
 * Add lighting effects
 
 

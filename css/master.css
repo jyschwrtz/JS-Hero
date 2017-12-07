@@ -29,14 +29,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 180px;
+  width: 195px;
   height: 120px;
   padding: 20px;
   border-radius: 20px;
   background: rgba(0, 0, 0, .75);
 }
 
-.score, .streak, .multiplier {
+.score, .streak, .multiplier, .max-streak {
   font-size: 28px;
 }
 
