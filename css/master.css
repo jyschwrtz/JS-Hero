@@ -113,6 +113,17 @@ body {
   border-radius: 5px;
 }
 
+.professional-links h1, .professional-links p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.professional-links div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .professional-links img {
   height: 40px;
   width: 40px;
