@@ -4,29 +4,31 @@
     <title>Guitar Hero</title>
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
   </head>
   <body>
     <script src="vendor/three.js"></script>
     <script type="text/javascript" src="lib/bundle.js"></script>
     <div id="game-canvas">
       <div class="game-display">
-
-        <div class="professional-links">
-          <h1>JS Hero</h1>
-          <p>By Jay Schwartz</p>
-          <div class="">
+        <div class="header">
+          <p class="creator">Created by <span>Jay Schwartz</span></p>
+          <h1 class="title">JS Hero</h1>
+          <div class="professional-links">
             <a
-              href="https://www.linkedin.com/in/jay-schwartz/"
-              target="_blank">
-              <img src="photos/linkedin_icon.png" alt="Linked In">
-            </a>
-            <a
-              href="https://github.com/jyschwrtz"
-              target="_blank">
-              <img src="photos/github_icon.svg" alt="Github">
-            </a>
-          </div>
+            href="https://www.linkedin.com/in/jay-schwartz/"
+            target="_blank">
+            <img src="photos/linkedin_icon.png" alt="Linked In">
+          </a>
+          <a
+          href="https://github.com/jyschwrtz"
+          target="_blank">
+          <img src="photos/github_icon.png" alt="Github">
+        </a>
+      </div>
         </div>
+
+
 
         <div class="game-details">
           <div class="game-details-left">
@@ -41,7 +43,6 @@
 
         <div class="game-start">
           <h1 class="start">PRESS "A" TO START</h1>
-          <!-- <button class="start">Start Game</button> -->
         </div>
 
         <div class="instructions">
@@ -83,6 +84,11 @@
         <button class="mute">Mute</button>
       </div>
     </div>
-    <div id="song"><div>
+    <div id="song"></div>
+
+    <div class="look-around-instructions hidden">
+      <h1>CLICK AND DRAG TO LOOK AROUND</h1>
+    </div>
+
   </body>
 </html>

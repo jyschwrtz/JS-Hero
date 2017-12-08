@@ -1,4 +1,5 @@
 ** TODO:
+* add fret board lines (beats)
 * Add lighting effects
 
 
