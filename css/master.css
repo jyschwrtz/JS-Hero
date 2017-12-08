@@ -116,12 +116,13 @@ body {
 .professional-links h1, .professional-links p {
   margin: 0;
   margin-bottom: 5px;
+  padding: 0 20px;
 }
 
 .professional-links div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .professional-links img {
